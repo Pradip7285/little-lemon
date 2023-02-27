@@ -1,0 +1,23 @@
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5; /* sets background color of the container */
+    padding: 20px; /* adds some padding to the container */
+  }
+  
+  .leftChild {
+    width: 50%;
+  }
+  
+  .rightChild {
+    width: 50%;
+    margin-left: 20px;
+    display: flex; /* sets the right child as a flex container */
+    align-items: center; /* aligns child elements vertically */
+  }
+  
+  .salad {
+    margin-right: 10px; /* adds some space between the image and text */
+  }
+  

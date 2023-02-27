@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React from 'react'
+import Navbar from './Component/Navbr';
+import Hero from './Component/Hero';
+import Footer from'./Component/Footer';
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>new line</h1>
-    </div>
+    <>
+    <Navbar/>
+    <Hero/>
+    <Footer/>
+    </>
   );
 }
 
