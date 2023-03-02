@@ -1,17 +1,20 @@
-import React from 'react'
-import Navbar from './Component/Navbr';
-import Hero from './Component/Hero';
-import Footer from'./Component/Footer';
+import React from 'react';
 import './App.css';
-
+import Navbar from './Component/NavBar';
+import HeroSection from './Component/HeroSection';
+import TableList from './Component/TableList';
+import Footer from './Component/Footer';
 
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Hero/>
-    <Footer/>
-    </>
+    <div className="App">
+      <>
+        <Navbar />
+        <HeroSection />
+        <TableList />
+        <Footer />
+       </>
+    </div>
   );
 }
 
